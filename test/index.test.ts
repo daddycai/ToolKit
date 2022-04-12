@@ -2,7 +2,7 @@
  * @Description: 测试
  * @Author: JserCai
  * @Date: 2022-04-12 17:25:30
- * @LastEditTime: 2022-04-12 17:25:30
+ * @LastEditTime: 2022-04-12 17:47:12
  * @LastEditors: JserCai
  */
 import { random } from '../src/index'
