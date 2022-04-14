@@ -1,11 +1,12 @@
 /*
  * @Description: 测试
  * @Author: JserCai
- * @Date: 2022-04-12 17:25:30
- * @LastEditTime: 2022-04-12 18:00:34
+ * @Date: 2022-04-13 10:11:00
+ * @LastEditTime: 2022-04-13 10:11:00
  * @LastEditors: JserCai
  */
-import { random } from '../src/index'
+import { random, uuid } from '../src/index'
+
 describe('生成数字范围内的随机数', () => {
   it('random(1, 1) -> should return 1', () => {
     const rand = random(1, 1)
@@ -14,5 +15,12 @@ describe('生成数字范围内的随机数', () => {
   it('random(1, 10) -> should return number', () => {
     const rand = random(1, 10)
     expect(rand).toBeNaN
+  })
+})
+
+describe('生成uuid', () => {
+  it('uuid() -> should return length 36', () => {
+    const rand = uuid()
+    expect(rand).toHaveLength(36)
   })
 })
