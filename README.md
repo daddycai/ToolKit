@@ -23,23 +23,23 @@
 
 ```shell
 # npm
-npm install tool-kit -S
+npm install @jsercai/tool-kit -S
 
 # yarn
-yarn add tool-kit -S
+yarn add @jsercai/tool-kit -S
 ```
 
 ESM 导入使用
 
 ```js
-import { random } from 'tool-kit'
+import { random } from '@jsercai/tool-kit'
 console.log(random(1, 10))
 ```
 
 RequireJS 导入使用
 
 ```js
-const { random } = require('tool-kit')
+const { random } = require('@jsercai/tool-kit')
 console.log(random(1, 10))
 ```
 

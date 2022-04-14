@@ -1,6 +1,6 @@
 {
     "name": "@jsercai/tool-kit",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "前端工具包",
     "main": "dist/tool-kit.cjs.js",
     "module": "dist/tool-kit.esm.js",
